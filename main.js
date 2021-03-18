@@ -36,11 +36,8 @@ const cleanOptions = (e) => {
 const showContent = (e) => {
     e.preventDefault();
 
-    for (let i = 0; i < options.length; i++) {
-        options[i] += " "
-    }
 
-    alert(`Oto Twoje dostępne możliwości: ${options}`);
+    alert(`Oto Twoje dostępne możliwości: ${options.join(", ")}`);
 }
 
 const randomAdvice = (e) => {
