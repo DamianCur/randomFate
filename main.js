@@ -30,6 +30,7 @@ const addAdvice = (e) => {
 const cleanOptions = (e) => {
     e.preventDefault();
     options.length = 0;
+    h1.textContent = "";
     alert("Poprawnie zresetowano wprowadzone dane.");
 }
 
@@ -44,8 +45,8 @@ const randomAdvice = (e) => {
     e.preventDefault();
     const index = Math.floor(Math.random() * options.length);
     h1.textContent = options[index];
-   
-    
+
+
 }
 
 
