@@ -1,3 +1,7 @@
-const table = [1,2,3]
+const input = document.querySelector("input");
+const add = document.querySelector(".add");
+const clean = document.querySelector(".clean");
+const showAdvice = document.querySelector(".showAdvice");
+const showOptions = document.querySelector(".showOptions");
 
-table.length = 0;
+const options = ["walcz", "przemyśl to jeszcze raz"];
